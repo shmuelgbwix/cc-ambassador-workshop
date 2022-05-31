@@ -1,0 +1,20 @@
+{
+  "$schema": "target/schemas/.application.schema.json",
+  "moduleId": "WORKSHOP2",
+  "appDefinitionId": "6be4be9d-8826-4c31-9c1f-8d6664d7f3aa",
+  "isCoreService": true,
+  "routeNamespace": "workshop2",
+  "translations": {
+    "enabled": true
+  },
+  "sentry": {
+    "DSN": "https://013ce23579134e8e8c50bc17c42a33aa@sentry.wixpress.com/3506",
+    "id": "013ce23579134e8e8c50bc17c42a33aa",
+    "projectName": "workshop2",
+    "teamName": "cc-shmuel",
+    "errorMonitor": true
+  },
+  "enabledByExperiments": [
+    "specs.infra.yoshi-bm.ChangeMe"
+  ]
+}
